@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+shop,,,,2023-03-30 19:49:00,2023-03-30 19:51:24,2m - 24.626s,PASSED
+,,,,,,,
+Test Cases/Shop/FlashSale,,,,2023-03-30 19:49:00,2023-03-30 19:50:18,1m - 18.074s,PASSED
+"startApplication(""mobileapp\HappyDayShopping.apk"", true)",,,,2023-03-30 19:49:01,2023-03-30 19:49:37,35.706s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-03-30 19:49:37,2023-03-30 19:49:39,2.074s,PASSED
+"tap(findTestObject(""Shop/FlashSale/FlashSale_Buttontap""), 0)",,,,2023-03-30 19:49:39,2023-03-30 19:49:41,2.159s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-03-30 19:49:41,2023-03-30 19:49:43,2.016s,PASSED
+"tap(findTestObject(""Shop/FlashSale/Product""), 0)",,,,2023-03-30 19:49:43,2023-03-30 19:49:48,4.824s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-03-30 19:49:48,2023-03-30 19:49:50,2.013s,PASSED
+"tap(findTestObject(""Shop/FlashSale/Text - 1""), 0)",,,,2023-03-30 19:49:50,2023-03-30 19:49:51,0.611s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-03-30 19:49:51,2023-03-30 19:49:53,2.004s,PASSED
+"setText(findTestObject(""Object Repository/Shop/FlashSale/Quantity-set_5""), ""5"", 0)",,,,2023-03-30 19:49:53,2023-03-30 19:49:54,1.113s,PASSED
+hideKeyboard(),,,,2023-03-30 19:49:54,2023-03-30 19:49:56,2.146s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-03-30 19:49:56,2023-03-30 19:49:58,2.005s,PASSED
+"tap(findTestObject(""Shop/FlashSale/add""), 0)",,,,2023-03-30 19:49:58,2023-03-30 19:49:59,0.949s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-03-30 19:49:59,2023-03-30 19:50:01,2.009s,PASSED
+"tap(findTestObject(""Shop/FlashSale/add""), 0)",,,,2023-03-30 19:50:01,2023-03-30 19:50:01,0.463s,PASSED
+"tap(findTestObject(""Shop/FlashSale/yourbag_button""), 0)",,,,2023-03-30 19:50:01,2023-03-30 19:50:03,1.280s,PASSED
+"tap(findTestObject(""Shop/FlashSale/checkout_button""), 0)",,,,2023-03-30 19:50:03,2023-03-30 19:50:04,1.293s,PASSED
+"getText(findTestObject(""Shop/FlashSale/assertion-after-checkout""), 0)",,,,2023-03-30 19:50:04,2023-03-30 19:50:16,11.978s,PASSED
+closeApplication(),,,,2023-03-30 19:50:16,2023-03-30 19:50:18,2.563s,PASSED
+,,,,,,,
+Test Cases/Shop/FlashSale,,,,2023-03-30 19:50:18,2023-03-30 19:51:24,1m - 5.761s,PASSED
+"startApplication(""mobileapp\HappyDayShopping.apk"", true)",,,,2023-03-30 19:50:18,2023-03-30 19:50:49,30.411s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-03-30 19:50:49,2023-03-30 19:50:51,2.009s,PASSED
+"tap(findTestObject(""Shop/FlashSale/FlashSale_Buttontap""), 0)",,,,2023-03-30 19:50:51,2023-03-30 19:50:52,0.957s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-03-30 19:50:52,2023-03-30 19:50:54,2.018s,PASSED
+"tap(findTestObject(""Shop/FlashSale/Product""), 0)",,,,2023-03-30 19:50:54,2023-03-30 19:50:56,2.052s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-03-30 19:50:56,2023-03-30 19:50:58,2.011s,PASSED
+"tap(findTestObject(""Shop/FlashSale/Text - 1""), 0)",,,,2023-03-30 19:50:58,2023-03-30 19:50:59,1.174s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-03-30 19:50:59,2023-03-30 19:51:01,2.016s,PASSED
+"setText(findTestObject(""Object Repository/Shop/FlashSale/Quantity-set_5""), ""5"", 0)",,,,2023-03-30 19:51:01,2023-03-30 19:51:02,1.074s,PASSED
+hideKeyboard(),,,,2023-03-30 19:51:02,2023-03-30 19:51:04,2.059s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-03-30 19:51:04,2023-03-30 19:51:06,2.008s,PASSED
+"tap(findTestObject(""Shop/FlashSale/add""), 0)",,,,2023-03-30 19:51:06,2023-03-30 19:51:07,0.492s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-03-30 19:51:07,2023-03-30 19:51:09,2.006s,PASSED
+"tap(findTestObject(""Shop/FlashSale/add""), 0)",,,,2023-03-30 19:51:09,2023-03-30 19:51:09,0.452s,PASSED
+"tap(findTestObject(""Shop/FlashSale/yourbag_button""), 0)",,,,2023-03-30 19:51:09,2023-03-30 19:51:11,1.350s,PASSED
+"tap(findTestObject(""Shop/FlashSale/checkout_button""), 0)",,,,2023-03-30 19:51:11,2023-03-30 19:51:12,1.192s,PASSED
+"getText(findTestObject(""Shop/FlashSale/assertion-after-checkout""), 0)",,,,2023-03-30 19:51:12,2023-03-30 19:51:22,10.011s,PASSED
+closeApplication(),,,,2023-03-30 19:51:22,2023-03-30 19:51:24,2.406s,PASSED
